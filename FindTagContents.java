@@ -1,3 +1,4 @@
+// BUG: example 3 fails (looking for 'p' that's not present) because you don't do any error checking for nonexistent tags
 import java.util.Scanner;
 
 public class FindTagContents {
